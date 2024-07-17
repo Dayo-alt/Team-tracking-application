@@ -1,0 +1,128 @@
+.manage-employee {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    color: #b40063;
+}
+
+.link {
+    display: block;
+    margin-bottom: 20px;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.employee-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.employee-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0.1px solid #000000;
+    border-radius: 5px;
+}
+
+.employee-form label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    text-decoration: solid;
+}
+
+.employee-form select{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.employee-form button {
+    padding: 10px;
+    background-color: #c700b6;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.employee-card {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card p {
+    margin: 5px 0;
+}
+
+.employee-card button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #bd0094;
+    color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.manage-employee {
+    padding: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    margin-right: 10px;
+}
+
+form input, form select {
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.employee-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.employee-list li {
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    justify-content: space-evenly;
+    
+}
+
+.employee-list button{
+    padding: 10px;
+    background-color: #9b00a0;
+    color: #fff;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.link{
+    border-color: 10px solid black;
+    padding: 10px;
+}
